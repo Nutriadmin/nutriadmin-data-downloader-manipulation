@@ -31,7 +31,7 @@ Follow these steps to combine data into a single file:
 11. Navigate to the Desktop in your terminal session by typing the appropriate command:
     - In Mac, you need to type: `cd ~/Desktop` then press `ENTER`
     - In Windows Powershell, you need to type: `cd $env:USERPROFILE\Desktop` then press `ENTER`
-12. Once your terminal session is at the Desktop directory, where you have this project, you need to run this script with NodeJS to execute it
-    - In Mac, you need to type: `node ./nutriadmin-data-downloader-manipulation/scripts/combine-questionnaires-into-spreadsheet.js` then press `ENTER`
-    - In Windows, you need to type `node .\nutriadmin-data-downloader-manipulation\scripts\combine-questionnaires-into-spreadsheet.js` then press `ENTER`
+13. Once your terminal session is at the Desktop directory, where you have this project, you need to run this script with NodeJS to execute it
+    - In Mac, you need to type: `npm i && node ./nutriadmin-data-downloader-manipulation/scripts/combine-questionnaires-into-spreadsheet.js` then press `ENTER`
+    - In Windows, you need to type `npm i && node .\nutriadmin-data-downloader-manipulation\scripts\combine-questionnaires-into-spreadsheet.js` then press `ENTER`
 13. Please check the terminal in case any errors occur. If there are no errors your data will now be available inside the `output` folder
