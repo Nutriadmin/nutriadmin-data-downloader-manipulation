@@ -4,10 +4,10 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 input-data
+output
 input-data/
 /input-data/
 input-data/client-records
 /input-data/client-records
 /input-data/client-records/
-/output/
 /node_modules/
