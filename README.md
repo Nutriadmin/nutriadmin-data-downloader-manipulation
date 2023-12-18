@@ -1,20 +1,17 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project contains a variety of scripts to perform useful data operations involving data downloaded from NutriAdmin. You can learn more about [NutriAdmin here](https://nutriadmin.com).
+In particular, please check [this article](https://nutriadmin.com/docs/how-to-download-all-of-your-client-data-in-bulk) on how to download your data.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Prerequisites
+In order to run this code you will need to install the following free tools in your Windows/Linux/Mac computer:
+- [NodeJS](https://nodejs.org/)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Disclaimer
+Running code in your computer can be dangerous! Please ensure you understand what the code will do before you execute it. If you are not a developer and you are running code in your computer that you don't understand, this can result in unintended data loss or corruption.
+These tools are provided as a useful addition and examples on how to manipulate data you download from the software.
+NutriAdmin is not responsible for any unintended side effects running these scripts may have in your computer or data. Please double check and make sure you know what you are doing before you execute the code. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+# Scripts
+Here are instructions on how to run the different scripts.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## combine-questionnaires-into-spreadsheet.js
