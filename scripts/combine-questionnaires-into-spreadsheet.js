@@ -6,6 +6,7 @@ This is useful to compare multiple records at the same time. Check the README fo
 */
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline-sync');
 const csvWriter = require('csv-writer').createObjectCsvWriter();
 
 function processFolder(folderPath, questionnaireId) {
@@ -62,10 +63,12 @@ function writeToCsv(outputFile, clientData) {
         .catch(error => console.error(`Error writing to CSV: ${error.message}`));
 }
 
-// Replace the path and questionnaireId with your actual values
-const folderPath = '/path/to/clients/client-records';
-const questionnaireId = 'your-questionnaire-id';
-const outputFile = 'output.csv';
+// Prompt user for questionnaireId
+const questionnaireId = readline.question('Enter the questionnaire ID: ');
+
+// Replace the folderPath and outputFile with your actual values
+const folderPath = path.join(__dirname, '../input-data/client-records');
+const outputFile = path.join(__dirname, '../output/combined-questionnaires.csv');
 
 const clientData = processFolder(folderPath, questionnaireId);
 writeToCsv(outputFile, clientData);
